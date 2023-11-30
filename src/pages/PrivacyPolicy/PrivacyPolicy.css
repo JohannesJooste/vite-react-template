@@ -1,0 +1,30 @@
+.card-jhf {
+    border-color: #cddee5;
+}
+
+.card-header-jhf {
+    background-color: #cddee5;
+    border-color: #cddee5;
+}
+
+.nav-link-jhf {
+    color: black;
+    transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+    transition: background-position 1s;
+    background-position: left bottom;
+    cursor: pointer;
+}
+
+.nav-link-jhf:hover {
+    color: black;
+    border-radius: 5px;
+    background: linear-gradient(
+        to right, 
+        #cddee5,
+        #9ebecb,
+        #9e8ac8
+    );
+    background-size: 250% 80%;
+    background-position: right bottom;
+    animation: background-position 0.75s;
+}

@@ -1,0 +1,22 @@
+.nav-link-custom {
+    font-family: 'Advent Pro', sans-serif;
+    color: #FAEBD7 !important;
+    text-shadow: 2px 2px 2px black;
+    font-weight: 700;
+}
+
+.navbar.scrolled .nav-link-custom {
+    font-family: 'Advent Pro', sans-serif;
+    color: #000 !important;
+    text-shadow: 2px 2px 2px #FAEBD7;
+}
+
+
+.navbar {
+    transition: background-color 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+.navbar.scrolled {
+    background-color: #cddee5 !important;
+
+}

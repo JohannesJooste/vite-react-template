@@ -1,0 +1,28 @@
+.btn-primary-jhf {
+    background-color: #9ebecb;
+    border-color: #9ebecb;
+    border-radius: 5px;
+    color: #000;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    transition: background-position 1s;
+    background-position: left bottom;
+    cursor: pointer;
+    margin-bottom: 25px;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.btn-primary-jhf:hover {
+    background: linear-gradient(
+        to right, 
+        #cddee5,
+        #9ebecb,
+        #9e8ac8
+    );
+    background-size: 250% 80%;
+    background-position: right bottom;
+    animation: background-position 0.75s;
+}
