@@ -5,6 +5,7 @@ import Spinner from '../components/LoadingSpinner/LoadingSpinner';
 import HeaderPrimary from '../components/HeaderPrimary/HeaderPrimary';
 import PageHeader from '../components/PageHeader/PageHeader';
 import FooterPrimary from '../components/FooterPrimary/FooterPrimary';
+import PersonProfile from '../components/PersonProfile/PersonProfile';
 
 const PersonProfileLayout = ({ children, pageTitle, breadcrumbItems }) => {
     const { isLoading, setLoading } = useLoading();
@@ -24,7 +25,7 @@ const PersonProfileLayout = ({ children, pageTitle, breadcrumbItems }) => {
                 title={pageTitle}
                 breadcrumbItems={breadcrumbItems}
             />
-            {/* ... rest of the component ... */}
+            <PersonProfile />
             <main>{children}</main>
             <FooterPrimary />
         </div>
